@@ -236,6 +236,8 @@ input[type="checkbox"]:checked {
         color: #000;
         border-radius: 0.38rem;
       border: none;
+      -webkit-appearance: none;
+    -moz-appearance: none;
         padding: 6px 13.6px;
         font-size: 14px;
         transition: background-color 0.1s;
@@ -296,6 +298,8 @@ th {
         color: #F1F1F1;
         border-radius: 0.38rem;
       border: none;
+      -webkit-appearance: none;
+    -moz-appearance: none;
         padding: 6px 13.6px;
         font-size: 14px;
         transition: background-color 0.16s;
