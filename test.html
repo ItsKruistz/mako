@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark"/>
+    <title>Themed Buttons</title>
+    <link rel="stylesheet" href="mako.css">
+    <style>
+        /* Define styles for light mode */
+        @media (prefers-color-scheme: light) {
+            .light-button {
+                background-color: lightblue;
+                color: black;
+            }
+        }
+
+        /* Define styles for dark mode */
+        @media (prefers-color-scheme: dark) {
+            .dark-button {
+                background-color: darkblue;
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="circular">Light Mode Button</button>
+    <button class="dark-button">Dark Mode Button</button>
+    
+    <legend>Sex</legend>
+</body>
+</html>
